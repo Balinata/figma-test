@@ -4,13 +4,29 @@
 box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    }
+    
+h1 {
+background-color: rgba(129, 121, 121, 0.316);
+text-align: center;
+}
+
+.container {
+max-width: 1000px;
+padding: 0 20px;
+margin: 0 auto;
+}
+
 .cards {
-    margin: 50px 0;
+    margin: 50px --16px;
     padding: 0;
     list-style: none;
 }
 
-.cards > li {
+.cards> li {
+    padding: 0 16px 32px;
     display: inline-block;
     margin-right: -4%;
     vertical-align: top;
@@ -21,7 +37,7 @@ box-sizing: border-box;
 .card {
     background: rgb(222, 220, 220);
     border-radius: 16px;
-    box-shadow: 2px 2px 5px rgb(132, 127, 127);
+    box-shadow: 2px 2px 10px rgb(132, 127, 127);
     overflow: hidden;
     }
     
