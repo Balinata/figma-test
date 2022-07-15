@@ -20,18 +20,18 @@ margin: 0 auto;
 }
 
 .cards {
-    margin: 50px --16px;
+    margin: 50px -16px;
     padding: 0;
     list-style: none;
 }
 
 .cards> li {
-    padding: 0 16px 32px;
     display: inline-block;
-    margin-right: -4%;
-    vertical-align: top;
     width: calc(100% / 3);
     background-color: white;
+    padding: 0 16px 32px;
+    margin-right: -4px;
+    vertical-align: top;
 }
 
 .card {
@@ -40,29 +40,18 @@ margin: 0 auto;
     box-shadow: 2px 2px 10px rgb(132, 127, 127);
     overflow: hidden;
     }
-    
+
 img {
-    width: 100%
+display: block;
+width: 100%;
+vertical-align: middle;
 }
-    
+
 .card__content {
 padding: 0 25px 25px;
 }
 
 .card__visual {
-display: block;
-margin: 0 0 25px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-li {
-    width: calc(100% / 6);
-    display: inline-block;
-    vertical-align: top;
-    margin-right: -4%;
+    display: block;
+    margin: 0 0 25px;
 }
